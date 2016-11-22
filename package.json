@@ -1,0 +1,28 @@
+{
+  "name": "simple_bookstore",
+  "version": "1.0.0",
+  "description": "simple bookstore app",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeneralMeow/simple_bookstore.git"
+  },
+  "author": "RC Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeneralMeow/simple_bookstore/issues"
+  },
+  "homepage": "https://github.com/GeneralMeow/simple_bookstore#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.2"
+  }
+}
